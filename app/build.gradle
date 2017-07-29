@@ -8,7 +8,7 @@ android {
         minSdkVersion 25
         targetSdkVersion 26
         versionCode 1
-        versionName "1.0"
+        versionName '1.001'
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
@@ -22,6 +22,11 @@ android {
         targetCompatibility JavaVersion.VERSION_1_7
     }
     productFlavors {
+        OlderDevices {
+            minSdkVersion 'API 18'
+            applicationId 'com.hacktheworld.beerfinalprototype'
+            targetSdkVersion 25
+        }
     }
 }
 

@@ -15,8 +15,10 @@
         android:layout_weight="1"
         android:text="Transport"
         android:textAppearance="@android:style/TextAppearance.Widget.EditText"
-        tools:layout_editor_absoluteX="161dp"
-        tools:layout_editor_absoluteY="267dp" />
+        android:layout_marginBottom="44dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton"
+        app:layout_constraintRight_toLeftOf="@+id/txtMearsures"
+        android:layout_marginRight="63dp" />
 
     <TextView
         android:id="@+id/txtGames"
@@ -25,8 +27,10 @@
         android:layout_weight="1"
         android:text="Games"
         android:textAppearance="@android:style/TextAppearance.Widget.EditText"
-        tools:layout_editor_absoluteX="51dp"
-        tools:layout_editor_absoluteY="267dp" />
+        app:layout_constraintRight_toLeftOf="@+id/txtUber"
+        android:layout_marginRight="75dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="225dp" />
 
     <ImageButton
         android:id="@+id/ingBtnLocation"
@@ -40,8 +44,13 @@
         android:outlineProvider="background"
         android:scaleType="fitEnd"
         app:srcCompat="@drawable/location"
-        tools:layout_editor_absoluteX="288dp"
-        tools:layout_editor_absoluteY="87dp" />
+        android:layout_marginRight="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toTopOf="@+id/txtLocation"
+        app:layout_constraintLeft_toRightOf="@+id/imgBtnOrder"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintHorizontal_bias="1.0" />
 
     <ImageButton
         android:id="@+id/imgBtnUber"
@@ -49,8 +58,10 @@
         android:layout_height="75dp"
         android:outlineProvider="background"
         app:srcCompat="@drawable/uber"
-        tools:layout_editor_absoluteX="153dp"
-        tools:layout_editor_absoluteY="192dp" />
+        android:layout_marginBottom="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/txtUber"
+        app:layout_constraintLeft_toRightOf="@+id/imgBtnGames"
+        android:layout_marginLeft="40dp" />
 
     <TextView
         android:id="@+id/txtOrder"
@@ -59,8 +70,9 @@
         android:layout_weight="0.21"
         android:text="Order"
         android:textAppearance="@android:style/TextAppearance.Widget.EditText"
-        tools:layout_editor_absoluteX="174dp"
-        tools:layout_editor_absoluteY="159dp" />
+        tools:layout_editor_absoluteX="173dp"
+        android:layout_marginBottom="14dp"
+        app:layout_constraintBottom_toTopOf="@+id/imgBtnUber" />
 
     <EditText
         android:id="@+id/txtAppName"
@@ -71,8 +83,12 @@
         android:inputType="textPersonName"
         android:text="Beer buddy"
         android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title"
-        tools:layout_editor_absoluteX="72dp"
-        tools:layout_editor_absoluteY="14dp" />
+        android:layout_marginLeft="72dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintRight_toLeftOf="@+id/imgBtnHelp"
+        android:layout_marginRight="8dp" />
 
     <TextView
         android:id="@+id/txtMearsures"
@@ -81,8 +97,10 @@
         android:layout_weight="1"
         android:text="Am I drunk?"
         android:textAppearance="@android:style/TextAppearance.Widget.EditText"
-        tools:layout_editor_absoluteX="288dp"
-        tools:layout_editor_absoluteY="267dp" />
+        android:layout_marginRight="11dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginBottom="225dp" />
 
     <ImageView
         android:id="@+id/imageView2"
@@ -91,8 +109,12 @@
         android:layout_weight="1"
         android:scaleType="matrix"
         app:srcCompat="@mipmap/ic_launcher"
-        tools:layout_editor_absoluteX="0dp"
-        tools:layout_editor_absoluteY="8dp" />
+        android:layout_marginLeft="8dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/txtAppName"
+        android:layout_marginRight="8dp"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp" />
 
     <ImageButton
         android:id="@+id/imgBtnHelp"
@@ -102,8 +124,13 @@
         android:layout_weight="1"
         android:backgroundTint="@color/colorPrimary"
         app:srcCompat="@android:drawable/ic_menu_help"
-        tools:layout_editor_absoluteX="323dp"
-        tools:layout_editor_absoluteY="8dp" />
+        android:layout_marginRight="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="27dp"
+        app:layout_constraintBottom_toTopOf="@+id/ingBtnLocation"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginTop="8dp"
+        app:layout_constraintVertical_bias="0.0" />
 
     <TextView
         android:id="@+id/txtLocation"
@@ -112,8 +139,13 @@
         android:layout_weight="1"
         android:text="Location"
         android:textAppearance="@android:style/TextAppearance.Widget.EditText"
-        tools:layout_editor_absoluteX="298dp"
-        tools:layout_editor_absoluteY="162dp" />
+        android:layout_marginRight="34dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="13dp"
+        app:layout_constraintBottom_toTopOf="@+id/imgBtnMeasures"
+        app:layout_constraintLeft_toRightOf="@+id/txtOrder"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintHorizontal_bias="1.0" />
 
     <ImageButton
         android:id="@+id/imgBtnGames"
@@ -123,8 +155,10 @@
         android:background="@color/common_google_signin_btn_text_dark_pressed"
         android:scaleType="fitEnd"
         app:srcCompat="@drawable/uber"
-        tools:layout_editor_absoluteX="35dp"
-        tools:layout_editor_absoluteY="193dp" />
+        android:layout_marginBottom="-9dp"
+        app:layout_constraintBottom_toTopOf="@+id/txtGames"
+        app:layout_constraintLeft_toLeftOf="parent"
+        android:layout_marginLeft="28dp" />
 
     <ImageButton
         android:id="@+id/imgBtnMeasures"
@@ -135,8 +169,13 @@
         android:outlineProvider="background"
         android:scaleType="fitEnd"
         app:srcCompat="@drawable/am_i_drunk"
-        tools:layout_editor_absoluteX="288dp"
-        tools:layout_editor_absoluteY="191dp" />
+        android:layout_marginRight="16dp"
+        app:layout_constraintRight_toRightOf="parent"
+        android:layout_marginBottom="0dp"
+        app:layout_constraintBottom_toTopOf="@+id/txtMearsures"
+        app:layout_constraintLeft_toRightOf="@+id/imgBtnUber"
+        android:layout_marginLeft="8dp"
+        app:layout_constraintHorizontal_bias="1.0" />
 
     <ImageButton
         android:id="@+id/imgBtnOrder"
@@ -148,7 +187,11 @@
         android:scaleType="fitEnd"
         app:srcCompat="@drawable/order_cart"
         tools:layout_editor_absoluteX="153dp"
-        tools:layout_editor_absoluteY="84dp" />
+        android:layout_marginTop="22dp"
+        app:layout_constraintTop_toBottomOf="@+id/txtAppName"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/txtOrder"
+        app:layout_constraintVertical_bias="1.0" />
 
     <ImageButton
         android:id="@+id/imageButton"
@@ -159,11 +202,13 @@
         android:backgroundTintMode="src_in"
         android:scaleType="fitStart"
         android:visibility="visible"
-        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
         app:srcCompat="?android:attr/fingerprintAuthDrawable"
-        tools:layout_editor_absoluteY="339dp" />
+        tools:layout_editor_absoluteY="330dp"
+        android:layout_marginLeft="130dp"
+        android:layout_marginRight="8dp"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintHorizontal_bias="0.0" />
 
     <TextView
         android:id="@+id/txtConsumption"
@@ -175,8 +220,10 @@
         android:textAppearance="@android:style/TextAppearance.Widget.EditText"
         android:textColorLink="@color/common_google_signin_btn_text_dark_focused"
         android:visibility="visible"
-        tools:layout_editor_absoluteX="28dp"
-        tools:layout_editor_absoluteY="159dp" />
+        android:layout_marginBottom="14dp"
+        app:layout_constraintBottom_toTopOf="@+id/imgBtnGames"
+        app:layout_constraintRight_toLeftOf="@+id/txtOrder"
+        android:layout_marginRight="54dp" />
 
     <ImageButton
         android:id="@+id/imgBtConsumption"
