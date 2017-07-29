@@ -23,7 +23,7 @@ android {
     }
     productFlavors {
         OlderDevices {
-            minSdkVersion 'API 18'
+            minSdkVersion 25
             applicationId 'com.hacktheworld.beerfinalprototype'
             targetSdkVersion 25
         }
