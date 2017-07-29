@@ -7,12 +7,180 @@
     tools:context="com.hacktheworld.beerfinalprototype.MainActivity">
 
     <TextView
+        android:id="@+id/txtUber"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_weight="1"
+        android:text="Transport"
+        android:textAppearance="@android:style/TextAppearance.Widget.EditText"
+        tools:layout_editor_absoluteX="161dp"
+        tools:layout_editor_absoluteY="267dp" />
+
+    <TextView
+        android:id="@+id/txtGames"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Games"
+        android:textAppearance="@android:style/TextAppearance.Widget.EditText"
+        tools:layout_editor_absoluteX="51dp"
+        tools:layout_editor_absoluteY="267dp" />
+
+    <ImageButton
+        android:id="@+id/ingBtnLocation"
+        style="@android:style/Widget.DeviceDefault.ImageButton"
+        android:layout_width="78dp"
+        android:layout_height="75dp"
+        android:layout_weight="0.21"
+        android:adjustViewBounds="false"
+        android:backgroundTint="@color/common_google_signin_btn_text_dark_pressed"
+        android:cropToPadding="false"
+        android:scaleType="fitEnd"
+        app:srcCompat="@drawable/location"
+        tools:layout_editor_absoluteX="288dp"
+        tools:layout_editor_absoluteY="87dp" />
+
+    <ImageButton
+        android:id="@+id/imgBtnUber"
+        android:layout_width="78dp"
+        android:layout_height="75dp"
+        app:srcCompat="@drawable/uber"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="192dp" />
+
+    <TextView
+        android:id="@+id/txtOrder"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="0.21"
+        android:text="Order"
+        android:textAppearance="@android:style/TextAppearance.Widget.EditText"
+        tools:layout_editor_absoluteX="174dp"
+        tools:layout_editor_absoluteY="159dp" />
+
+    <EditText
+        android:id="@+id/txtAppName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/colorPrimary"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Beer buddy"
+        android:textAppearance="@style/TextAppearance.AppCompat.SearchResult.Title"
+        tools:layout_editor_absoluteX="72dp"
+        tools:layout_editor_absoluteY="14dp" />
+
+    <TextView
+        android:id="@+id/txtMearsures"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Am I drunk?"
+        android:textAppearance="@android:style/TextAppearance.Widget.EditText"
+        tools:layout_editor_absoluteX="288dp"
+        tools:layout_editor_absoluteY="267dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:scaleType="matrix"
+        app:srcCompat="@mipmap/ic_launcher"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="8dp" />
+
+    <ImageButton
+        android:id="@+id/imgBtnHelp"
+        style="@android:style/Widget.DeviceDefault.ImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:backgroundTint="@color/colorPrimary"
+        app:srcCompat="@android:drawable/ic_menu_help"
+        tools:layout_editor_absoluteX="323dp"
+        tools:layout_editor_absoluteY="8dp" />
+
+    <TextView
+        android:id="@+id/txtLocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:text="Location"
+        android:textAppearance="@android:style/TextAppearance.Widget.EditText"
+        tools:layout_editor_absoluteX="298dp"
+        tools:layout_editor_absoluteY="162dp" />
+
+    <ImageButton
+        android:id="@+id/imgBtnGames"
+        android:layout_width="78dp"
+        android:layout_height="75dp"
+        android:layout_weight="0.25"
+        android:background="@color/common_google_signin_btn_text_dark_pressed"
+        android:scaleType="fitEnd"
+        app:srcCompat="@drawable/games"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="193dp" />
+
+    <ImageButton
+        android:id="@+id/imgBtnMeasures"
+        android:layout_width="78dp"
+        android:layout_height="75dp"
+        android:layout_weight="0.23"
+        android:backgroundTint="@color/common_google_signin_btn_text_dark_pressed"
+        android:scaleType="fitEnd"
+        app:srcCompat="@drawable/am_i_drunk"
+        tools:layout_editor_absoluteX="288dp"
+        tools:layout_editor_absoluteY="191dp" />
+
+    <ImageButton
+        android:id="@+id/imgBtnOrder"
+        android:layout_width="78dp"
+        android:layout_height="75dp"
+        android:layout_weight="0.23"
+        android:backgroundTint="@color/common_google_signin_btn_text_dark_pressed"
+        android:foregroundTint="@color/colorPrimary"
+        android:scaleType="fitEnd"
+        app:srcCompat="@drawable/orderCart"
+        tools:layout_editor_absoluteX="153dp"
+        tools:layout_editor_absoluteY="84dp" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="125dp"
+        android:layout_height="141dp"
+        android:background="@android:color/background_light"
+        android:backgroundTint="@android:color/background_light"
+        android:backgroundTintMode="src_in"
+        android:scaleType="fitStart"
+        android:visibility="visible"
+        app:layout_constraintHorizontal_bias="0.501"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        app:srcCompat="?android:attr/fingerprintAuthDrawable"
+        tools:layout_editor_absoluteY="339dp" />
+
+    <TextView
+        android:id="@+id/txtConsumption"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:background="@color/common_google_signin_btn_text_dark_pressed"
+        android:backgroundTint="@android:color/background_light"
+        android:text="Consumption"
+        android:textAppearance="@android:style/TextAppearance.Widget.EditText"
+        android:textColorLink="@color/common_google_signin_btn_text_dark_focused"
+        android:visibility="visible"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="159dp" />
+
+    <ImageButton
+        android:id="@+id/imgBtConsumption"
+        android:layout_width="78dp"
+        android:layout_height="75dp"
+        android:layout_weight="1"
+        android:scaleType="fitEnd"
+        app:srcCompat="@drawable/beer-solid"
+        tools:layout_editor_absoluteX="35dp"
+        tools:layout_editor_absoluteY="84dp" />
 
 </android.support.constraint.ConstraintLayout>
