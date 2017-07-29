@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="?attr/actionModeSplitBackground"
-    android:backgroundTint="@drawable/images (1)"
+    android:backgroundTint="@drawable/fly_fish"
     android:backgroundTintMode="src_in"
     tools:context="com.hacktheworld.beerfinalprototype.login">
 
@@ -30,7 +30,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Username:"
-        android:textAppearance="ffffff"
+        android:textColor="@color/colorAccent"
         tools:layout_editor_absoluteX="31dp"
         tools:layout_editor_absoluteY="57dp" />
 
@@ -39,7 +39,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="Password"
-        android:textAppearance="ffffff"
+        android:textColor="@color/colorAccent"
         tools:layout_editor_absoluteX="31dp"
         tools:layout_editor_absoluteY="129dp" />
 
@@ -49,7 +49,6 @@
         android:layout_height="wrap_content"
         android:allowUndo="false"
         android:backgroundTint="@android:color/white"
-        android:textAppearance="ffffff"
         android:ems="10"
         android:hint="Username"
         android:inputType="textPassword"
@@ -61,10 +60,11 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="?attr/colorBackgroundFloating"
-        android:textAppearance="ffffff"
         android:ems="10"
         android:hint="Password"
         android:inputType="textPassword"
+
+        android:textColor="@color/colorAccent"
         tools:layout_editor_absoluteX="98dp"
         tools:layout_editor_absoluteY="115dp" />
 
@@ -72,7 +72,7 @@
         android:id="@+id/txtregisterLink"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:textAppearance="ffffff"
+        android:textColor="@color/colorAccent"
         android:ems="10"
         android:inputType="textPersonName"
         android:linksClickable="true"

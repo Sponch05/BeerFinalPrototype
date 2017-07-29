@@ -16,6 +16,8 @@ import org.json.JSONObject;
 
 public class RegisterActivity extends AppCompatActivity {
 
+
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
