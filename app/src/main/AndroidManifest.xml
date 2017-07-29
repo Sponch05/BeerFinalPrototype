@@ -17,7 +17,9 @@
             </intent-filter>
         </activity>
         <activity android:name=".login" />
-        <activity android:name=".Register"></activity>
+        <activity android:name=".Register" />
+        <activity android:name=".insertUserData" />
+        <activity android:name=".GamesActivity"></activity>
     </application>
 
 </manifest>
