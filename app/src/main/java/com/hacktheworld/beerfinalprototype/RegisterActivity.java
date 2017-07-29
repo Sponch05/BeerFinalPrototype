@@ -31,7 +31,7 @@ public class RegisterActivity extends AppCompatActivity {
 		final EditText etHeight = (EditText) findViewById(R.id.etHeight);
 		final EditText etWeight = (EditText) findViewById(R.id.etWeight);
         final EditText etPassword = (EditText) findViewById(R.id.etPassword);
-        final Button bRegister = (Button) findViewById(R.id.bRegister);
+        final Button bRegister = (Button) findViewById(R.id.bntRegister);
 
         bRegister.setOnClickListener(new View.OnClickListener() {
             @Override
