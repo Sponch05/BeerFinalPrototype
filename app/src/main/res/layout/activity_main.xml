@@ -37,6 +37,7 @@
         android:adjustViewBounds="false"
         android:backgroundTint="@color/common_google_signin_btn_text_dark_pressed"
         android:cropToPadding="false"
+        android:outlineProvider="background"
         android:scaleType="fitEnd"
         app:srcCompat="@drawable/location"
         tools:layout_editor_absoluteX="288dp"
@@ -46,6 +47,7 @@
         android:id="@+id/imgBtnUber"
         android:layout_width="78dp"
         android:layout_height="75dp"
+        android:outlineProvider="background"
         app:srcCompat="@drawable/uber"
         tools:layout_editor_absoluteX="153dp"
         tools:layout_editor_absoluteY="192dp" />
@@ -130,6 +132,7 @@
         android:layout_height="75dp"
         android:layout_weight="0.23"
         android:backgroundTint="@color/common_google_signin_btn_text_dark_pressed"
+        android:outlineProvider="background"
         android:scaleType="fitEnd"
         app:srcCompat="@drawable/am_i_drunk"
         tools:layout_editor_absoluteX="288dp"
