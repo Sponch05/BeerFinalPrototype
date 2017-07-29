@@ -4,6 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:backgroundTint="?android:attr/colorBackground"
+    android:visibility="visible"
     tools:context="com.hacktheworld.beerfinalprototype.MainActivity">
 
     <TextView
@@ -178,10 +180,10 @@
         android:layout_width="78dp"
         android:layout_height="75dp"
         android:layout_weight="1"
-        android:backgroundTint="@android:color/background_light"
+        android:backgroundTint="@android:color/white"
         android:scaleType="fitEnd"
         app:srcCompat="@drawable/beer-solid"
-        tools:layout_editor_absoluteX="35dp"
-        tools:layout_editor_absoluteY="84dp" />
+        tools:layout_editor_absoluteX="-115dp"
+        tools:layout_editor_absoluteY="590dp" />
 
 </android.support.constraint.ConstraintLayout>
