@@ -44,7 +44,7 @@ public class database {
             con = DriverManager.getConnection(connectionUrl);
 
             // Create and execute an SQL statement that returns some data.
-            String SQL = "SELECT TOP 10 * FROM Person.ContactType";
+            String SQL = "SELECT * FROM User";
             stmt = con.createStatement();
             rs = stmt.executeQuery(SQL);
 
