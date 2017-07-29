@@ -178,6 +178,7 @@
         android:layout_width="78dp"
         android:layout_height="75dp"
         android:layout_weight="1"
+        android:backgroundTint="@android:color/background_light"
         android:scaleType="fitEnd"
         app:srcCompat="@drawable/beer-solid"
         tools:layout_editor_absoluteX="35dp"
