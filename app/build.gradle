@@ -1,5 +1,10 @@
 apply plugin: 'com.android.application'
 
+configurations.all{
+    resolutionStrategy.force 'com.google.code.findbugs:jsr305:3.0.1'
+
+}
+
 android {
     compileSdkVersion 26
     buildToolsVersion "26.0.1"
@@ -39,5 +44,8 @@ dependencies {
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     compile 'com.android.volley:volley:1.0.0'
     compile 'com.google.android.gms:play-services-ads:11.0.4'
+
     testCompile 'junit:junit:4.12'
+    compile 'com.uber.sdk:rides-android:0.5.4'
+
 }
