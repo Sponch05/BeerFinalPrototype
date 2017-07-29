@@ -44,7 +44,7 @@
         tools:layout_editor_absoluteY="129dp" />
 
     <EditText
-        android:id="@+id/txtPassword"
+        android:id="@+id/etPassword"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:allowUndo="false"
@@ -57,7 +57,7 @@
         tools:layout_editor_absoluteY="45dp" />
 
     <EditText
-        android:id="@+id/txtUsername"
+        android:id="@+id/etUsername"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:backgroundTint="?attr/colorBackgroundFloating"
