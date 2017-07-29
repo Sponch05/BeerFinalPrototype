@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
 
     public void consBtn (View view)
     {
-        Intent consump = new Intent(this, Conumption.class);
+        Intent consump = new Intent(this, Consumption.class);
         startActivity(consump);
     }
 

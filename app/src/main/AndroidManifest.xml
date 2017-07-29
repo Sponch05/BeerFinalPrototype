@@ -19,7 +19,8 @@
         <activity android:name=".login" />
         <activity android:name=".Register" />
         <activity android:name=".insertUserData" />
-        <activity android:name=".GamesActivity"></activity>
+        <activity android:name=".GamesActivity" />
+        <activity android:name=".Consumption"></activity>
     </application>
 
 </manifest>
