@@ -122,7 +122,7 @@
         android:layout_weight="0.25"
         android:background="@color/common_google_signin_btn_text_dark_pressed"
         android:scaleType="fitEnd"
-        app:srcCompat="@drawable/games"
+        app:srcCompat="@drawable/the_Games"
         tools:layout_editor_absoluteX="35dp"
         tools:layout_editor_absoluteY="193dp" />
 
@@ -185,7 +185,7 @@
         android:layout_weight="1"
         android:backgroundTint="@android:color/white"
         android:scaleType="fitEnd"
-        app:srcCompat="@drawable/beer-solid"
+        app:srcCompat="@drawable/beerSolid"
         tools:layout_editor_absoluteX="-115dp"
         tools:layout_editor_absoluteY="590dp" />
 

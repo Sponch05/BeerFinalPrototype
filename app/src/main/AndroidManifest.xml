@@ -17,8 +17,6 @@
             </intent-filter>
         </activity>
         <activity android:name=".login" />
-        <activity android:name=".StartPage" />
-        <activity android:name=".DrinkNowCaptureClass" />
         <activity android:name=".Register"></activity>
     </application>
 
