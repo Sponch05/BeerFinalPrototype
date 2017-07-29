@@ -42,7 +42,7 @@ public class RegisterActivity extends AppCompatActivity {
 				final String gender = etGender.getText().toString();
                 final String username = etUsername.getText().toString();
                 final String email = etEmail.getText().toString();
-				final String etCell = etCell.getText().toString();
+				final String cell = etCell.getText().toString();
                 final int height = Integer.parseInt(etHeight.getText().toString());
 				final int weight = Integer.parseInt(etWeight.getText().toString());
                 final String password = etPassword.getText().toString();
