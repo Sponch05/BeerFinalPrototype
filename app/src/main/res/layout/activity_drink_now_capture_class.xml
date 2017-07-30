@@ -38,8 +38,8 @@
                     <android.support.constraint.ConstraintLayout
                         android:layout_width="match_parent"
                         android:layout_height="match_parent"
-                        tools:layout_editor_absoluteY="0dp"
-                        tools:layout_editor_absoluteX="0dp">
+                        tools:layout_editor_absoluteX="0dp"
+                        tools:layout_editor_absoluteY="0dp">
 
                         <SeekBar
                             android:id="@+id/glassSizeSeekUI"
@@ -48,24 +48,24 @@
                             android:layout_height="27dp"
                             android:max="100"
                             android:progress="3"
-                            tools:layout_editor_absoluteY="264dp"
-                            tools:layout_editor_absoluteX="2dp" />
+                            tools:layout_editor_absoluteX="2dp"
+                            tools:layout_editor_absoluteY="264dp" />
 
                         <ImageView
                             android:id="@+id/imageView"
                             android:layout_width="158dp"
                             android:layout_height="143dp"
                             app:srcCompat="@android:drawable/ic_menu_myplaces"
-                            tools:layout_editor_absoluteY="73dp"
-                            tools:layout_editor_absoluteX="113dp" />
+                            tools:layout_editor_absoluteX="113dp"
+                            tools:layout_editor_absoluteY="73dp" />
 
                         <Spinner
                             android:id="@+id/alcTypeSpinner"
                             android:layout_width="97dp"
                             android:layout_height="wrap_content"
                             android:visibility="visible"
-                            tools:layout_editor_absoluteY="22dp"
-                            tools:layout_editor_absoluteX="144dp" />
+                            tools:layout_editor_absoluteX="144dp"
+                            tools:layout_editor_absoluteY="22dp" />
 
                         <TextView
                             android:id="@+id/beerVolTxt"
@@ -105,16 +105,16 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Glass Size"
-                            tools:layout_editor_absoluteY="120dp"
-                            tools:layout_editor_absoluteX="48dp" />
+                            tools:layout_editor_absoluteX="48dp"
+                            tools:layout_editor_absoluteY="120dp" />
 
                         <TextView
                             android:id="@+id/bacLevelTxt"
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="BAC Level"
-                            tools:layout_editor_absoluteY="120dp"
-                            tools:layout_editor_absoluteX="271dp" />
+                            tools:layout_editor_absoluteX="271dp"
+                            tools:layout_editor_absoluteY="120dp" />
 
                     </android.support.constraint.ConstraintLayout>
                 </LinearLayout>

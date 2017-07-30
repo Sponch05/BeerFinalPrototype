@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">BeerFinalPrototype</string>
+
+    <string name="title_activity_congratulate">CongratulateActivity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">Congratulations \nyou have Won\n 10 POINTS!!!!!!\n\n 200 Away from a free 6Pack \n Or Uber When you need one</string>
 </resources>

@@ -19,7 +19,12 @@
         <activity android:name=".login" />
         <activity android:name=".insertUserData" />
         <activity android:name=".GamesActivity" />
-        <activity android:name=".Consumption"></activity>
+        <activity android:name=".Consumption" />
+        <activity
+            android:name=".CongratulateActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_congratulate"
+            android:theme="@style/FullscreenTheme"></activity>
     </application>
 
 </manifest>
