@@ -63,6 +63,7 @@
                             android:id="@+id/alcTypeSpinner"
                             android:layout_width="97dp"
                             android:layout_height="wrap_content"
+                            android:forceHasOverlappingRendering="true"
                             android:visibility="visible"
                             tools:layout_editor_absoluteX="144dp"
                             tools:layout_editor_absoluteY="22dp" />
@@ -80,8 +81,8 @@
                             android:layout_width="wrap_content"
                             android:layout_height="wrap_content"
                             android:text="Drinks had so far"
-                            tools:layout_editor_absoluteX="140dp"
-                            tools:layout_editor_absoluteY="334dp" />
+                            tools:layout_editor_absoluteX="-163dp"
+                            tools:layout_editor_absoluteY="-252dp" />
 
                         <SeekBar
                             android:id="@+id/beerVolSeekUI"

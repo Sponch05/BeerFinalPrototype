@@ -49,5 +49,6 @@ dependencies {
     compile 'com.google.android.gms:play-services-ads:11.0.4'
     compile 'com.uber.sdk:rides-android:0.5.4'
     compile 'com.android.support:support-v4:26.+'
+    compile 'com.google.firebase:firebase-messaging:11.0.4'
     testCompile 'junit:junit:4.12'
 }
