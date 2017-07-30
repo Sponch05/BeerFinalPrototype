@@ -18,7 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
         ImageButton loginLink = (ImageButton) findViewById(R.id.ingBtnLocation) ;
 
-        //Redirectig user to login page
+        //Redirectig user to login page mm
         loginLink.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
