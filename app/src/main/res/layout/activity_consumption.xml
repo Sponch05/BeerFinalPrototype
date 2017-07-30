@@ -13,8 +13,9 @@
         android:backgroundTint="@color/colorPrimaryDark"
         android:foregroundTint="@color/colorPrimaryDark"
         android:text="Consumption"
-        tools:layout_editor_absoluteX="111dp"
-        tools:layout_editor_absoluteY="28dp" />
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1"
+        tools:layout_editor_absoluteX="91dp"
+        tools:layout_editor_absoluteY="25dp" />
 
     <CalendarView
         android:id="@+id/calendarView"

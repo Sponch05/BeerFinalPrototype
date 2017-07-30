@@ -155,8 +155,8 @@
         android:layout_height="67dp"
         android:text="https://twitter.com/Uber"
         android:visibility="invisible"
-        tools:layout_editor_absoluteX="209dp"
-        tools:layout_editor_absoluteY="129dp" />
+        tools:layout_editor_absoluteX="184dp"
+        tools:layout_editor_absoluteY="132dp" />
 
     <TextView
         android:id="@+id/mapstxt"

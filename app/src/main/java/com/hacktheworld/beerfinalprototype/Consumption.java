@@ -11,11 +11,11 @@ public class Consumption extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_consumption);
 
-       // final EditText etUsername = (EditText) findViewById(R.id.etUsername);
-     //   final EditText etUsername = (EditText) findViewById(R.id.etUsername);
-     //   final EditText etUsername = (EditText) findViewById(R.id.etUsername);
-     //   final EditText etUsername = (EditText) findViewById(R.id.etUsername);
-//        final EditText etUsername = (EditText) findViewById(R.id.etUsername);
+        //final EditText etUsername = (EditText) findViewById(R.id.etUsername);
+        //final EditText etUsername = (EditText) findViewById(R.id.etUsername);
+        //final EditText etUsername = (EditText) findViewById(R.id.etUsername);
+        //final EditText etUsername = (EditText) findViewById(R.id.etUsername);
+        //final EditText etUsername = (EditText) findViewById(R.id.etUsername);
     }
 
 
